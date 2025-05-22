@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 
 interface MenuItem {
@@ -94,7 +96,7 @@ export default function Home({
             Orders
           </a>
           <a
-            href="/logout"
+            href="/login"
             className="text-gray-600 hover:text-gray-800 font-medium transition-colors"
           >
             Logout
