@@ -1,7 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
 
-
 export default function TestPage() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -31,7 +30,7 @@ export default function TestPage() {
 
   return (
     <div>
-      <pre>{JSON.stringify(data, null, 2)}</pre>
+      <p>{JSON.stringify(data.message, null, 2)}</p>
     </div>
   );
 }
