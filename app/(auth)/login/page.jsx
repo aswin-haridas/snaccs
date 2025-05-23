@@ -8,7 +8,6 @@ function LoginPage() {
   const [error, setError] = useState("");
 
   const handleLogin = async (event) => {
-    event.preventDefault();
     setError("");
 
     const formData = new FormData(event.target);
